@@ -1,49 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-21T14:58:30 EDT" name="Parallel Test Suite" finished-at="2025-04-21T14:58:36 EDT" duration-ms="5704">
+  <suite started-at="2025-04-21T15:31:40 EDT" name="Suite" finished-at="2025-04-21T15:31:43 EDT" duration-ms="3237">
     <groups>
     </groups>
-    <test started-at="2025-04-21T14:58:30 EDT" name="SaceDemoTest" finished-at="2025-04-21T14:58:34 EDT" duration-ms="3373">
-      <class name="suite2.SauceDemoTests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:suite2.SauceDemoTests@6b2ea799]" started-at="2025-04-21T14:58:30 EDT" name="beforeTest" finished-at="2025-04-21T14:58:32 EDT" duration-ms="1379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="open()[pri:0, instance:suite2.SauceDemoTests@6b2ea799]" started-at="2025-04-21T14:58:32 EDT" name="open" finished-at="2025-04-21T14:58:33 EDT" duration-ms="1473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open -->
-        <test-method signature="login()[pri:1, instance:suite2.SauceDemoTests@6b2ea799]" started-at="2025-04-21T14:58:33 EDT" name="login" finished-at="2025-04-21T14:58:33 EDT" duration-ms="320" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:suite2.SauceDemoTests@6b2ea799]" started-at="2025-04-21T14:58:33 EDT" name="afterTest" finished-at="2025-04-21T14:58:34 EDT" duration-ms="164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- suite2.SauceDemoTests -->
-    </test> <!-- SaceDemoTest -->
-    <test started-at="2025-04-21T14:58:30 EDT" name="OpenCartTest" finished-at="2025-04-21T14:58:36 EDT" duration-ms="5704">
+    <test started-at="2025-04-21T15:31:40 EDT" name="Test" finished-at="2025-04-21T15:31:43 EDT" duration-ms="3237">
       <class name="suite1.OpenCartTests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:suite1.OpenCartTests@49139829]" started-at="2025-04-21T14:58:30 EDT" name="beforeTest" finished-at="2025-04-21T14:58:33 EDT" duration-ms="2781" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:suite1.OpenCartTests@49139829]" started-at="2025-04-21T15:31:40 EDT" name="beforeTest" finished-at="2025-04-21T15:31:41 EDT" duration-ms="1272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="launchSite()[pri:0, instance:suite1.OpenCartTests@49139829]" started-at="2025-04-21T14:58:33 EDT" name="launchSite" finished-at="2025-04-21T14:58:34 EDT" duration-ms="1345" status="PASS">
+        <test-method signature="launchSite()[pri:0, instance:suite1.OpenCartTests@49139829]" started-at="2025-04-21T15:31:41 EDT" name="launchSite" finished-at="2025-04-21T15:31:43 EDT" duration-ms="1338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSite -->
-        <test-method signature="searchForProduct()[pri:0, instance:suite1.OpenCartTests@49139829]" started-at="2025-04-21T14:58:34 EDT" name="searchForProduct" finished-at="2025-04-21T14:58:36 EDT" duration-ms="1379" status="PASS">
+        <test-method signature="searchForProduct()[pri:0, instance:suite1.OpenCartTests@49139829]" started-at="2025-04-21T15:31:43 EDT" name="searchForProduct" finished-at="2025-04-21T15:31:43 EDT" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForProduct -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:suite1.OpenCartTests@49139829]" started-at="2025-04-21T14:58:36 EDT" name="afterTest" finished-at="2025-04-21T14:58:36 EDT" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:suite1.OpenCartTests@49139829]" started-at="2025-04-21T15:31:43 EDT" name="afterTest" finished-at="2025-04-21T15:31:43 EDT" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- suite1.OpenCartTests -->
-    </test> <!-- OpenCartTest -->
-  </suite> <!-- Parallel Test Suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

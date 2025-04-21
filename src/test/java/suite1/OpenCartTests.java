@@ -12,9 +12,8 @@ import org.testng.annotations.Test;
 
 public class OpenCartTests {
 	//For demonstrating parameterized builds
-   // String browser = System.getProperty("browser");
-	String browser="edge";
-
+    String browser = System.getProperty("browser");
+	
     private WebDriver driver;
     private String url = "http://opencart.abstracta.us/";
     String searchField = "//*[@id='search']/input";

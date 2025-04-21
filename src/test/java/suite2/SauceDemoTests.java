@@ -21,8 +21,8 @@ public class SauceDemoTests {
 	    private String header = "Swag Labs";
 
 	    //For demonstrating parameterized builds
-	    //String browser = System.getProperty("browser");
-	    String browser="chrome";
+	    String browser = System.getProperty("browser");
+	  
 
 
 	    public void waitForPageLoaded() {
@@ -79,13 +79,13 @@ public class SauceDemoTests {
                       }
             else {
                 System.out.println("Invalid option Selected hence defaulting to Chrome");
-                browser = "Chrome";
-                driver = new ChromeDriver();
+                browser = "edge";
+                driver = new EdgeDriver();
                           }
         }
         else {
-            browser = "Chrome";
-            driver = new ChromeDriver();
+            browser = "edge";
+            driver = new EdgeDriver();
         }
         driver.manage().window().maximize();
     }
